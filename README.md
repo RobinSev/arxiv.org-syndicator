@@ -13,7 +13,7 @@ specifications (which was vague on purpose).
 **My participation :** I was part of the team developing the model, and I personally handled the general architecture of it.
 The only class I didn't work on is the Statistics class and its test.
 
-##Evaluation criteria
+## Evaluation criteria
 We were evaluated on :
 
     * the overall quality of the code and the tests(readability, architecture, correctness).
@@ -21,5 +21,5 @@ We were evaluated on :
     * the project organization to fit the scrum method.
     * a personal report of our organization, its success and failures and the lessons we learned from it.
 
-##Grade
+## Grade
 20 / 20
