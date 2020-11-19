@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <link href="http://arxiv.org/api/query?search_query%3Dall%26id_list%3D%26start%3D0%26max_results%3D20" rel="self" type="application/atom+xml"/>
+    <title type="html">ArXiv Query: search_query=all&amp;id_list=&amp;start=0&amp;max_results=20</title>
+    <id>http://arxiv.org/api/b3d3Bo8zQp4ZBKwoUoYtNfSZWfI</id>
+    <updated>2020-04-07T00:00:00-04:00</updated>
+    <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">237549</opensearch:totalResults>
+    <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+    <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">20</opensearch:itemsPerPage>
+    <entry>
+        <id>http://arxiv.org/abs/1911.11405v1</id>
+        <updated>2019-11-26T08:49:54Z</updated>
+        <published>2019-07-15T08:49:54Z</published>
+        <title>title article 1</title>
+        <summary>  Irrelevant.
+        </summary>
+        <author>
+            <name>Zhujun Zhang</name>
+        </author>
+        <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 11 figures</arxiv:comment>
+        <link href="http://arxiv.org/abs/1911.11405v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/1911.11405v1" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/1907.06744v1</id>
+        <updated>2019-07-15T20:43:42Z</updated>
+        <published>2019-07-15T20:43:42Z</published>
+        <title>Almost all Steiner triple systems are almost resolvable</title>
+        <summary>  Irrelevant.
+        </summary>
+        <author>
+            <name>Asaf Ferber</name>
+        </author>
+        <author>
+            <name>Matthew Kwan</name>
+        </author>
+        <link href="http://arxiv.org/abs/1907.06744v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/1907.06744v1" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/1409.1340v1</id>
+        <updated>2014-09-04T06:55:03Z</updated>
+        <published>2019-07-14T06:55:03Z</published>
+        <title>On surjunctive monoids</title>
+        <summary>  A monoid $M$ is called surjunctive if every injective cellular automata with
+            finite alphabet over $M$ is surjective. We show that all finite monoids, all
+            finitely generated commutative monoids, all cancellative commutative monoids,
+            all residually finite monoids, all finitely generated linear monoids, and all
+            cancellative one-sided amenable monoids are surjunctive. We also prove that
+            every limit of marked surjunctive monoids is itself surjunctive. On the other
+            hand, we show that the bicyclic monoid and, more generally, all monoids
+            containing a submonoid isomorphic to the bicyclic monoid are non-surjunctive.
+        </summary>
+        <author>
+            <name>Tullio Ceccherini-Silberstein</name>
+        </author>
+        <author>
+            <name>Michel Coornaert</name>
+        </author>
+        <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Internat. J. Algebra Comput. 25 (2015), no. 4, 567-606</arxiv:journal_ref>
+        <link href="http://arxiv.org/abs/1409.1340v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/1409.1340v1" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="20M30, 37B10, 37B15, 54E15, 68Q80" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/1210.7708v1</id>
+        <updated>2012-10-29T16:12:41Z</updated>
+        <published>2012-10-29T16:12:41Z</published>
+        <title>Landau--Kolmogorov inequality revisited</title>
+        <summary>  Still irrelevant.
+        </summary>
+        <author>
+            <name>Alexei Shadrin</name>
+        </author>
+        <link href="http://arxiv.org/abs/1210.7708v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/1210.7708v1" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/1612.01842v2</id>
+        <updated>2016-12-07T06:10:53Z</updated>
+        <published>2012-10-29T15:01:47Z</published>
+        <title>An Improved One-to-All Broadcasting in Higher Dimensional
+            Eisenstein-Jacobi Networks</title>
+        <summary>  C'mon.
+        </summary>
+        <author>
+            <name>Zaid Hussain</name>
+        </author>
+        <link href="http://arxiv.org/abs/1612.01842v2" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/1612.01842v2" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/0705.3599v1</id>
+        <updated>2007-05-24T15:45:39Z</updated>
+        <published>2007-05-24T15:45:39Z</published>
+        <title>Integer symmetric matrices having all their eigenvalues in the interval
+            [-2,2]</title>
+        <summary>  We completely describe all integer symmetric matrices that have all their
+            eigenvalues in the interval [-2,2]. Along the way we classify all signed
+            graphs, and then all charged signed graphs, having all their eigenvalues in
+            this same interval. We then classify subsets of the above for which the integer
+            symmetric matrices, signed graphs and charged signed graphs have all their
+            eigenvalues in the open interval (-2,2).
+        </summary>
+        <author>
+            <name>James McKee</name>
+        </author>
+        <author>
+            <name>Chris Smyth</name>
+        </author>
+        <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 18 figures</arxiv:comment>
+        <link href="http://arxiv.org/abs/0705.3599v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://arxiv.org/pdf/0705.3599v1" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="05C50;11C20;05C22;15A36" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+    <entry>
+        <id>http://arxiv.org/abs/notPresent</id>
+        <updated>2007-05-24T15:45:39Z</updated>
+        <published>2007-05-24T15:45:39Z</published>
+        <title>Integer symmetric matrices having all their eigenvalues in the interval
+            [-2,2]</title>
+        <summary>  We completely describe all integer symmetric matrices that have all their
+            eigenvalues in the interval [-2,2]. Along the way we classify all signed
+            graphs, and then all charged signed graphs, having all their eigenvalues in
+            this same interval. We then classify subsets of the above for which the integer
+            symmetric matrices, signed graphs and charged signed graphs have all their
+            eigenvalues in the open interval (-2,2).
+        </summary>
+        <author>
+            <name>James McKee</name>
+        </author>
+        <author>
+            <name>Chris Smyth</name>
+        </author>
+        <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 18 figures</arxiv:comment>
+        <link href="http://arxiv.org/abs/0705.3599v1" rel="alternate" type="text/html"/>
+        <link title="pdf" href="http://badDownloadLink" rel="related" type="application/pdf"/>
+        <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="ha.LP" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="ha.LP" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+        <category term="05C50;11C20;05C22;15A36" scheme="http://arxiv.org/schemas/atom"/>
+    </entry>
+</feed>

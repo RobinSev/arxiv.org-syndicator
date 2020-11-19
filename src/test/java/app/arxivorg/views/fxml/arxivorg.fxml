@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.arxivorg.controller.ArxivOrgController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="566.0" minWidth="10.0" prefWidth="276.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1124.0" minWidth="10.0" prefWidth="1124.0" />
+
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="260.0" minHeight="10.0" prefHeight="252.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="251.0" minHeight="10.0" prefHeight="249.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <GridPane alignment="CENTER" gridLinesVisible="true" minHeight="400.0" minWidth="238.0" prefHeight="800.0" prefWidth="238.0" GridPane.rowSpan="3">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="326.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="742.0" minHeight="0.0" prefHeight="447.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="742.0" minHeight="0.0" prefHeight="310.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: orange;">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="46.0" prefWidth="257.0" text="ArxivOrg Organizer" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="Helvetica Neue" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+            <Accordion prefHeight="403.0" prefWidth="276.0" GridPane.rowIndex="1">
+              <panes>
+                <TitledPane prefHeight="271.0" prefWidth="276.0" text="Filter by category">
+                  <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="252.0" prefWidth="274.0">
+                           <children>
+                              <VBox layoutX="137.0" layoutY="51.0" prefHeight="316.0" prefWidth="274.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" text="Categories">
+                                              <font>
+                                                  <Font name="Verdana" size="16.0" />
+                                              </font>
+                                              <VBox.margin>
+                                                  <Insets bottom="5.0" />
+                                              </VBox.margin>
+                                          </Label>
+                                          <ComboBox fx:id="categoryField" maxWidth="-Infinity" onAction="#loadSubCategory" prefWidth="200.0" promptText="Choose a category">
+                                              <VBox.margin>
+                                                  <Insets bottom="10.0" />
+                                              </VBox.margin>
+                                    </ComboBox>
+                                          <ComboBox fx:id="subcategoryField" maxWidth="-Infinity" prefWidth="200.0" promptText="Choose a subcategory">
+                                              <VBox.margin>
+                                                  <Insets />
+                                              </VBox.margin>
+                                          </ComboBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+                           </padding></AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane expanded="true" text="Filter by period">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="498.0" prefWidth="274.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" text="Period" textAlignment="CENTER">
+                                              <VBox.margin>
+                                                  <Insets bottom="5.0" />
+                                              </VBox.margin>
+                                              <font>
+                                                  <Font name="Verdana" size="16.0" />
+                                              </font>
+                                          </Label>
+                                    <DatePicker fx:id="calendar" prefHeight="27.0" prefWidth="253.0" promptText="dd//mm/yyyy">
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="20.0" right="20.0" />
+                                       </VBox.margin></DatePicker>
+                                 </children></VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+                           </padding></AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane text="Filter by author(s)">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="498.0" prefWidth="274.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" text="Author(s)" textAlignment="CENTER">
+                                              <font>
+                                                  <Font name="Verdana" size="16.0" />
+                                              </font>
+                                              <VBox.margin>
+                                                  <Insets bottom="5.0" />
+                                              </VBox.margin>
+                                          </Label>
+                                          <TextArea fx:id="authorsArea" prefHeight="200.0" promptText="E.g. : Jean Dupont, Georges Chapuis">
+                                              <font>
+                                                  <Font name="Verdana" size="13.0" />
+                                              </font>
+                                          </TextArea>
+                                 </children></VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+                           </padding></AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                </TitledPane>
+                  <TitledPane animated="true" prefHeight="360.0" prefWidth="276.0" text="Filter by keywords">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="498.0" prefWidth="274.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" text="Keywords" textAlignment="CENTER">
+                                              <font>
+                                                  <Font name="Verdana" size="16.0" />
+                                              </font>
+                                              <VBox.margin>
+                                                  <Insets bottom="5.0" />
+                                              </VBox.margin>
+                                          </Label>
+                                          <TextArea fx:id="keywordsArea" prefHeight="200.0" promptText="Convolutional neural networks, pattern recognition">
+                                              <font>
+                                                  <Font name="Verdana" size="13.0" />
+                                              </font>
+                                    </TextArea>
+                                    <CheckBox fx:id="searchInTitle" mnemonicParsing="false" text="Search keywords in title">
+                                       <font>
+                                          <Font name="Helvetica Neue" size="14.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets left="20.0" top="15.0" />
+                                       </VBox.margin>
+                                    </CheckBox>
+                                    <CheckBox fx:id="searchInSummary" layoutX="10.0" layoutY="235.0" mnemonicParsing="false" text="Search keywords in summary">
+                                       <font>
+                                          <Font name="Helvetica Neue" size="14.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets left="20.0" top="15.0" />
+                                       </VBox.margin>
+                                    </CheckBox>
+                                 </children></VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+                           </padding></AnchorPane>
+                    </content>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                  </TitledPane>
+              </panes>
+            </Accordion>
+            <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+               <children>
+                        <Button fx:id="searchButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#request" text="Get articles!" textFill="#0885ff">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#getArticlesSinceLastUse" text="Get articles since last use">
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="40.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#notImplemented" text="My favorites articles">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="89.0" layoutY="98.0" mnemonicParsing="false" onAction="#notImplemented" text="My preferences">
+                     <font>
+                        <Font name="Helvetica Neue" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            </children>
+        </GridPane>
+        <SplitPane dividerPositions="0.6102756892230576" minWidth="-Infinity" orientation="VERTICAL" prefHeight="800.0" prefWidth="878.0" GridPane.columnIndex="1" GridPane.rowSpan="3">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <ListView fx:id="listArticles" layoutY="39.0" prefHeight="444.0" prefWidth="1122.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0" />
+                  <ToolBar prefHeight="40.0" prefWidth="1122.0">
+                    <items>
+                        <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="1105.0">
+                           <children>
+                              <Label text="LIST OPTIONS :" textFill="#ffa600">
+                                 <font>
+                                    <Font name="Helvetica Neue" size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="15.0" right="100.0" />
+                                 </HBox.margin></Label>
+                            <Button mnemonicParsing="false" onAction="#requestSeeMoreArticles" text="See more articles">
+                                 <font>
+                                    <Font name="Helvetica Neue" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="10.0" right="50.0" />
+                                 </HBox.margin></Button>
+                              <Button mnemonicParsing="false" text="Statistics">
+                                 <font>
+                                    <Font name="Helvetica Neue" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="50.0" right="50.0" />
+                                 </HBox.margin>
+                              </Button>
+                                    <Button mnemonicParsing="false" onAction="#downloadSelectedArticles" style="-fx-background-color: #5882FA;" text="Download selection" textFill="WHITE">
+                                 <font>
+                                    <Font name="Helvetica Neue" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="50.0" right="50.0" />
+                                 </HBox.margin></Button>
+                                    <Button fx:id="downloadAllButton" mnemonicParsing="false" onAction="#downloadAll" style="-fx-background-color: #5882FA;" text="Download all!" textFill="#fffbfb">
+                                 <font>
+                                    <Font name="Helvetica Neue" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="50.0" right="50.0" />
+                                 </HBox.margin></Button>
+                           </children></HBox>
+                    </items>
+                  </ToolBar>
+                    </children>
+                </AnchorPane>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="918.0" minWidth="10.0" prefWidth="918.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="434.0" minWidth="10.0" prefWidth="204.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="150.0" minHeight="10.0" prefHeight="143.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="189.0" minHeight="10.0" prefHeight="164.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <GridPane gridLinesVisible="true" GridPane.columnIndex="1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #58FA58;">
+                                    <children>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" text="Favorite" textAlignment="CENTER">
+                                            <font>
+                                                <Font name="Helvetica Neue" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <CheckBox fx:id="favoriteCheckBox" mnemonicParsing="false">
+                                            <HBox.margin>
+                                                <Insets left="15.0" />
+                                            </HBox.margin>
+                                        </CheckBox>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                    <children>
+                                        <Button fx:id="downloadDatasAreaButton" mnemonicParsing="false" onAction="#downloadCurrentArticle" prefHeight="45.0" prefWidth="178.0" style="-fx-background-color: #5882FA;" text=" Download it!" textFill="WHITE">
+                                            <font>
+                                                <Font name="Helvetica Neue" size="14.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </GridPane>
+                        <AnchorPane fx:id="datasArea" prefHeight="200.0" prefWidth="200.0" GridPane.rowSpan="2" />
+                        <ImageView fx:id="imageField" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    </children>
+                </GridPane>
+            </items>
+        </SplitPane>
+    </children>
+</GridPane>

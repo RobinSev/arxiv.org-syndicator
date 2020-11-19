@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.arxivorg.model.ArticleTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-19T16:33:52" hostname="DESKTOP-V7VA160" time="0.036">
+  <properties/>
+  <testcase name="testGetDownloadLink()" classname="app.arxivorg.model.ArticleTest" time="0.018"/>
+  <testcase name="testGetTitle()" classname="app.arxivorg.model.ArticleTest" time="0.002"/>
+  <testcase name="testGetSummary()" classname="app.arxivorg.model.ArticleTest" time="0.001"/>
+  <testcase name="testGetCategories()" classname="app.arxivorg.model.ArticleTest" time="0.002"/>
+  <testcase name="testGetPrimaryCategory()" classname="app.arxivorg.model.ArticleTest" time="0.001"/>
+  <testcase name="testGetPublicationDate()" classname="app.arxivorg.model.ArticleTest" time="0.0"/>
+  <testcase name="testGetAuthors()" classname="app.arxivorg.model.ArticleTest" time="0.0"/>
+  <testcase name="testGetArxivlink()" classname="app.arxivorg.model.ArticleTest" time="0.0"/>
+  <testcase name="testGetComment()" classname="app.arxivorg.model.ArticleTest" time="0.0"/>
+  <testcase name="testEquals()" classname="app.arxivorg.model.ArticleTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
