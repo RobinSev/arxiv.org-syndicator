@@ -1,16 +1,25 @@
-# ArxivOrg
+# ArxivOrg Syndicator
 
-Ceci est le projet de base pour l'UE Projet: initiation génie logicielle.
+## Context
+This project has been realised in the second year of my computer science degree. We were in a group of 4.
+We built it from scratch, using a formal bill of specifications.
+We hadn't been taught the conception methods and patterns yet.
 
-Vous devrez développer le logiciel de zéro afin de construire 
-un logiciel de syndication de contenu provenant de l'archive ouverte arXiv.
+**Objective :** develop an application to harvest and syndicate scientific articles from the arxiv.org website, using its API. 
+All the project was meant to put us in a situation as close as possible to a real project.
+We used the agile scrum method, with a weekly meeting with our client/teacher to discuss the next steps and clarify the bill of
+specifications (which was vague on purpose).
 
-Members of Test Team 2 :
+**My participation :** I was part of the team developing the model, and I personally handled the general architecture of it.
+The only class I didn't work on is the Statistics class and its test.
 
-Axel PISANI
-Loïc NEYRAT
+##Evaluation criteria
+We were evaluated on :
 
-Members of Test Team 1 :
+    * the overall quality of the code and the tests(readability, architecture, correctness).
+    * the quality of the questions we asked the client to get closer to the expected outcome.
+    * the project organization to fit the scrum method.
+    * a personal report of our organization, its success and failures and the lessons we learned from it.
 
-Arthur ANDRIEUX
-Robin SEVERAC
+##Grade
+20 / 20
