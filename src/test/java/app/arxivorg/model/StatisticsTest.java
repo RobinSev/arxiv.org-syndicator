@@ -11,6 +11,11 @@ import java.nio.file.Paths;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/*** This test is not valid. As I don't currently have the time to correct it, I will only say that the tester should
+ * have calculated by hand the expected result of each method using the document he uses as a test data material. Then,
+ * he should have checked for each result if the method gives the correct answer.
+ */
+
 public class StatisticsTest {
 
     List<Article> articles = AtomParser.parse(Paths.get("src/test/java/app/arxivorg/model/resources/TestFile.atom.xml"));
